@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/code/JAVA library/commons-math3-3.6.1/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/code/JAVA library/commonTool.jar"/>
+	<classpathentry kind="lib" path="D:/code/JAVA library/出圖用/jcommon-1.0.23/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="D:/code/JAVA library/出圖用/jcommon-1.0.23/jcommon-xml-1.0.23.jar"/>
+	<classpathentry kind="lib" path="D:/code/JAVA library/出圖用/jfreechart-1.0.19/jfreechart-1.0.19-demo.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
