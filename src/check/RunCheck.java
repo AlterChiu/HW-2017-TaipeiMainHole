@@ -23,7 +23,7 @@ public class RunCheck {
 		AtTreeMaker treeMaker = new AtTreeMaker(limitList, 0);
 		treeMaker.add("over", 3);
 		treeMaker.add("lower", 4);
-		TreeMap<String, TreeMap<String, String>> limitTree = treeMaker.getTree();
+		TreeMap<String, TreeMap<String, String>> limitTree = treeMaker.getMixTree();
 
 		for (String file : fileList) {
 			

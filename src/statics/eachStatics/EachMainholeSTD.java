@@ -2,6 +2,7 @@ package statics.eachStatics;
 
 import java.io.File;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -31,10 +32,12 @@ public class EachMainholeSTD {
 			}
 			AtCommonMath ds = new AtCommonMath(staticsArray.stream().mapToDouble(Double::doubleValue).toArray());
 			System.out.print(folder+ "\t");
-			System.out.print(ds.getMean() + "\t");
-			System.out.print(ds.getStd() + "\t");
-			System.out.print(ds.getMax() + "\t");
-			System.out.println(ds.getMin()+"\t");
+			double del = ds.getMax()-ds.getMin();
+			System.out.println(new BigDecimal(Math.pow(del,2)/12).setScale(3, BigDecimal.ROUND_HALF_UP).toString());
+			//System.out.print(ds.getMean() + "\t");
+			//System.out.print(ds.getStd() + "\t");
+			//System.out.print(ds.getMax() + "\t");
+			//System.out.println(ds.getMin()+"\t");
 		}
 	}
 
